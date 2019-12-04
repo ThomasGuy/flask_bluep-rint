@@ -1,0 +1,19 @@
+.welcome {
+  color: #a29dcf;
+  background: rgb(62, 73, 30);
+  min-height: 400px;
+}
+
+.navbar {
+  background-color: rgb(197, 197, 53);
+}
+
+.nav-link {
+  color: blueviolet;
+}
+
+.profile {
+  color: #877edd;
+  background: rgb(65, 9, 9);
+  min-height: 400px;
+}
