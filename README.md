@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## A skeletom flask dev enviroment
 
 To be run inside WSL.
