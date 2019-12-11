@@ -1,7 +1,8 @@
 from datetime import datetime
-from test_io import db, loginManager
+from blast import db
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import UserMixin
+
 
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -27,8 +28,3 @@ class Post(db.Model):
 
     def __repr__(self):
         return '<Post {}>'.format(self.body)
-
-
-@loginManager.user_loader
-def load_user(id):
-    return User.query.get(int(id))

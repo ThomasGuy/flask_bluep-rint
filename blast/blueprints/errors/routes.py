@@ -1,5 +1,5 @@
 from flask import render_template, Blueprint
-from test_io import db
+from blast import db
 
 err = Blueprint('error', __name__, template_folder='templates')
 
