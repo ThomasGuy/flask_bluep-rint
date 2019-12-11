@@ -1,4 +1,4 @@
-# A Skeletom Flask dev enviroment
+# A Skeleton Flask dev enviroment
 
 To be run inside WSL.
 
