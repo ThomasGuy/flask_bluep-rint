@@ -1,1 +1,1 @@
-from blast.blueprints.errors.routes import err
+from test_io.blueprints.errors.routes import err

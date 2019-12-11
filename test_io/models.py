@@ -1,5 +1,5 @@
 from datetime import datetime
-from blast import db, loginManager
+from test_io import db, loginManager
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import UserMixin
 

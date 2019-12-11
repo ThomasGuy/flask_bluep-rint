@@ -1,1 +1,1 @@
-from blast.blueprints.auth.routes import auth_bp
+from test_io.blueprints.auth.routes import auth_bp

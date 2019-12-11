@@ -1,1 +1,1 @@
-from blast.blueprints.mainsite.routes import main_bp
+from test_io.blueprints.mainsite.routes import main_bp

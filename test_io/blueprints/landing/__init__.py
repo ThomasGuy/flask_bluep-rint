@@ -1,1 +1,1 @@
-from blast.blueprints.landing.routes import welcome_bp
+from test_io.blueprints.landing.routes import welcome_bp
