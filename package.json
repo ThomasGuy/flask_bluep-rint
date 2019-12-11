@@ -1,11 +1,22 @@
 {
   "name": "blast",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Flask Blueprint Skeleton",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasGuy/flask_bluep-rint.git"
+  },
+  "keywords": [
+    "Flask"
+  ],
+  "author": "TWGuy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasGuy/flask_bluep-rint/issues"
+  },
+  "homepage": "https://github.com/ThomasGuy/flask_bluep-rint#readme"
 }
